@@ -44,7 +44,27 @@ La fila superior muestra los **pesos** (potencias de 2). El bit ``1`` indica que
 ## 🔢 1.2 Conversión de Decimal a Octal
 <br>
 
-El sistema **octal (base 8)** usa los dígitos del ``0`` al ``7``.
+👉 El decimal es ``base 10`` porque usamos ``10 dígitos``. Cuando llegamos al 9, ya no tenemos más dígitos… entonces empezamos de nuevo con 10 (un 1 y un 0).
+
+~~~~
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+~~~~
+
+👉 El octal es ``base 8`` porque solo tiene ``8 dígitos``. Cuando llegamos al 7, ya no hay más dígitos… entonces empezamos de nuevo con 10 (pero aquí el “10” significa 8 en decimal).
+
+~~~~
+0, 1, 2, 3, 4, 5, 6, 7
+~~~~
+
+**🔹 Ejemplos fáciles**
+
+- Decimal 0–7 → son iguales en octal.
+- Decimal 8 → en octal es 10.
+- Decimal 9 → en octal es 11.
+- Decimal 10 → en octal es 12.
+- Decimal 15 → en octal es 17.
+- Decimal 16 → en octal es 20.
+
 
 | Decimal | Octal |
 |---------|-------|
@@ -58,11 +78,3 @@ El sistema **octal (base 8)** usa los dígitos del ``0`` al ``7``.
 | 173     | 255   |
 | 255     | 377   |
 | 512     | 1000  |
-
-
-- **🔍 Cómo leer la tabla**
-
-  - 8 → 10 (octal) porque en base 8, el “1” representa 8 en decimal.
-  - 64 → 100 (octal) porque es 8².
-  - 255 → 377 (octal) porque en octal 3×64 + 7×8 + 7 = 255.
-  - 512 → 1000 (octal) porque es 8³.
