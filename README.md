@@ -58,3 +58,11 @@ El sistema **octal (base 8)** usa los dígitos del ``0`` al ``7``.
 | 173     | 255   |
 | 255     | 377   |
 | 512     | 1000  |
+
+
+- **🔍 Cómo leer la tabla**
+
+  - 8 → 10 (octal) porque en base 8, el “1” representa 8 en decimal.
+  - 64 → 100 (octal) porque es 8².
+  - 255 → 377 (octal) porque en octal 3×64 + 7×8 + 7 = 255.
+  - 512 → 1000 (octal) porque es 8³.
