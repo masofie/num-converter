@@ -2,6 +2,7 @@
 <br>
 
 - [🔢 Convertidor Numérico](#-convertidor-numérico)
+  - [🔢 1. Conversión de Decimal a Binario (10 bits)](#-1-conversión-de-decimal-a-binario-10-bits)
 
 > Un repositorio para convertir números entre distintos sistemas numéricos
 
@@ -19,3 +20,20 @@
   - ✔️ Código modular y bien documentado  
 
 <br>
+
+## 🔢 1. Conversión de Decimal a Binario (10 bits)
+<br>
+
+La fila superior muestra los **pesos** (potencias de 2).  
+El bit ``1`` indica que el número contiene ese valor, y ``0`` que no lo contiene.
+
+| Decimal | 512 | 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 | Binario     |
+|---------|-----|-----|-----|----|----|----|---|---|---|---|-------------|
+| 5       | 0   | 0   | 0   | 0  | 0  | 0  | 0 | 1 | 0 | 1 | 0000000101  |
+| 19      | 0   | 0   | 0   | 0  | 0  | 1  | 0 | 0 | 1 | 1 | 0000010011  |
+| 42      | 0   | 0   | 0   | 0  | 1  | 0  | 1 | 0 | 1 | 0 | 0000101010  |
+| 85      | 0   | 0   | 0   | 1  | 0  | 1  | 0 | 1 | 0 | 1 | 0001010101  |
+| 173     | 0   | 0   | 1   | 0  | 1  | 0  | 1 | 1 | 0 | 1 | 0010101101  |
+| 255     | 0   | 0   | 1   | 1  | 1  | 1  | 1 | 1 | 1 | 1 | 0011111111  |
+| 341     | 0   | 1   | 0   | 1  | 0  | 1  | 0 | 1 | 0 | 1 | 0101010101  |
+| 512     | 1   | 0   | 0   | 0  | 0  | 0  | 0 | 0 | 0 | 0 | 1000000000  |
