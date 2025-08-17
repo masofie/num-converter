@@ -24,8 +24,7 @@
 ## 🔢 1. Conversión de Decimal a Binario (10 bits)
 <br>
 
-La fila superior muestra los **pesos** (potencias de 2).  
-El bit ``1`` indica que el número contiene ese valor, y ``0`` que no lo contiene.
+La fila superior muestra los **pesos** (potencias de 2). El bit ``1`` indica que el número contiene ese valor, y ``0`` que no lo contiene.
 
 | Decimal | 512 | 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 | Binario     |
 |---------|-----|-----|-----|----|----|----|---|---|---|---|-------------|
