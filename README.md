@@ -65,8 +65,3 @@ La fila superior muestra los **pesos** (potencias de 2). El bit ``1`` indica que
 | 15      | 17    |
 | 25      | 31    |
 | 42      | 52    |
-| 64      | 100   |
-| 100     | 144   |
-| 173     | 255   |
-| 255     | 377   |
-| 512     | 1000  |
