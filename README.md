@@ -150,4 +150,4 @@ Así, puedes convertir ``Octal → Binario → Hexadecimal`` (y viceversa).
    - 0100 = 4
    - 1110 = E
 
-✅ Resultado: 236₈ = 4E₁₆
+✅ Resultado: 236₈ = ``4E₁₆``
