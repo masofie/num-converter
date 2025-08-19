@@ -10,6 +10,9 @@
 
 <br>
 
+## 🔢 Números Representados en los ``4`` Sistemas
+<br>
+
 - **Bases:**
   - Binario
   - Decimal
@@ -21,9 +24,14 @@
   - ✔️ Ejemplos claros de uso  
   - ✔️ Código modular y bien documentado  
 
-<br>
 
-## 🔢 Números Representados en los ``4`` Sistemas
+- **🔍 Explicación de los colores:**
+  - 🟦 Decimal → nuestro sistema habitual (base 10).
+  - 🟧 Octal → base 8.
+  - 🟥 Hexadecimal → base 16 (usando letras A–F).
+  - 🟩 Binario → base 2 (solo ceros y unos).
+
+<br>
 
 | **🟦 Decimal** | **🟧 Octal** | **🟥 Hexadecimal** | **🟩 Binario**|
 |------------|----------|----------------|---------------|
@@ -42,14 +50,6 @@
 | 398        | 616      | 18E            | 110001110     |
 | 432        | 660      | 1B0            | 110110000     |
 | 420        | 644      | 1A4            | 110100100     |
-
-
-- **🔍 Explicación de los colores:**
-  - 🟦 Decimal → nuestro sistema habitual (base 10).
-  - 🟧 Octal → base 8.
-  - 🟥 Hexadecimal → base 16 (usando letras A–F).
-  - 🟩 Binario → base 2 (solo ceros y unos).
-
 
 <br>
 
