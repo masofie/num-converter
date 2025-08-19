@@ -100,8 +100,8 @@ La fila superior muestra los **pesos** (potencias de 2). El bit ``1`` indica que
 - Cada posición vale una potencia de 8 (igual que en decimal cada posición vale una potencia de 10).
 
 **👉 Ejemplo:**
-  - En decimal 345 = (3×100) + (4×10) + (5×1).
-  - En octal 345₈ = (3×8²) + (4×8¹) + (5×8⁰).
+  - En decimal 345 = ``(3×100) + (4×10) + (5×1)``
+  - En octal 345₈ = ``(3×8²) + (4×8¹) + (5×8⁰)``
 
 <br>
 
@@ -132,18 +132,18 @@ Así, puedes convertir ``Octal → Binario → Hexadecimal`` (y viceversa).
 
 **🔹 Explicación**
 
-👉 Ejemplo con Octal 236₈ → Hexadecimal
+👉 Ejemplo con Octal ``236₈`` → Hexadecimal
 
 1. Escribir cada dígito octal en 3 bits binarios:
 
    - 2 = 010
    - 3 = 011
    - 6 = 110
-   - → 236₈ = 010 011 110 (binario)
+   - → 236₈ = ``010 011 110 (binario)``
 
-2. Agrupar en bloques de 4 bits (para pasar a hexadecimal):
-
-      - 0100 1110
+2. Agrupar en bloques de ``4 bits`` (para pasar a hexadecimal):
+  
+   - 0100 1110
   
 3. Pasar cada bloque a Hex:
 
