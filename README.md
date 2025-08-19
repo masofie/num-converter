@@ -5,6 +5,7 @@
   - [🔢 Números Representados en los ``4`` Sistemas](#-números-representados-en-los-4-sistemas)
   - [🔢 1. Conversión de Decimal a Binario (10 bits)](#-1-conversión-de-decimal-a-binario-10-bits)
   - [🔢 1.2 Conversión de Decimal a Octal](#-12-conversión-de-decimal-a-octal)
+- [🔢 1.3 Conversión de Octal a Decimal](#-13-conversión-de-octal-a-decimal)
 
 > Un repositorio para convertir números entre distintos sistemas numéricos
 
@@ -17,7 +18,7 @@
 - **🔍 Explicación de los colores:**
   
   - 🟦 Decimal → nuestro sistema habitual ``base 10``.
-  - 🟧 Octal → base 8.
+  - 🟧 Octal → se usa ``base 8``.
   - 🟥 Hexadecimal → base 16 ``usando letras A–F``.
   - 🟩 Binario → base 2 ``solo ceros y unos``.
 
@@ -86,3 +87,30 @@ La fila superior muestra los **pesos** (potencias de 2). El bit ``1`` indica que
 | 15      | 17    |
 | 25      | 31    |
 | 42      | 52    |
+
+<br>
+
+# 🔢 1.3 Conversión de Octal a Decimal
+<br>
+
+**🔹 Explicación simple**
+
+- El sistema octal es base 8.
+- Cada posición vale una potencia de 8 (igual que en decimal cada posición vale una potencia de 10).
+
+**👉 Ejemplo:**
+  - En decimal 345 = (3×100) + (4×10) + (5×1).
+  - En octal 345₈ = (3×8²) + (4×8¹) + (5×8⁰).
+
+<br>
+
+**🔹 Ejemplos fáciles**
+
+|**🟧 Octal**| **🟦 Decimal** | **Explicación**                    |
+|------------ |----------------|------------------------------------|
+| 7           | 7              | 7 = (7×8⁰)                         |
+| 10          | 8              | (1×8¹) + (0×8⁰) = 8                |
+| 17          | 15             | (1×8¹) + (7×8⁰) = 8+7              |
+| 31          | 25             | (3×8¹) + (1×8⁰) = 24+1             |
+| 52          | 42             | (5×8¹) + (2×8⁰) = 40+2             |
+| 144         | 100            | (1×8²) + (4×8¹) + (4×8⁰) = 64+32+4 |
