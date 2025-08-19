@@ -13,7 +13,9 @@
 ## 🔢 Números Representados en los ``4`` Sistemas
 <br>
 
+
 - **🔍 Explicación de los colores:**
+  
   - 🟦 Decimal → nuestro sistema habitual (base 10).
   - 🟧 Octal → base 8.
   - 🟥 Hexadecimal → base 16 (usando letras A–F).
