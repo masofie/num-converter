@@ -143,7 +143,7 @@ Así, puedes convertir ``Octal → Binario → Hexadecimal`` (y viceversa).
 
 2. Agrupar en bloques de 4 bits (para pasar a hexadecimal):
 
-  - 0100 1110
+      - 0100 1110
   
 3. Pasar cada bloque a Hex:
 
