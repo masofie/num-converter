@@ -2,6 +2,7 @@
 <br>
 
 - [🔢 Convertidor Numérico](#-convertidor-numérico)
+  - [🔢 Números Representados en los ``4`` Sistemas](#-números-representados-en-los-4-sistemas)
   - [🔢 1. Conversión de Decimal a Binario (10 bits)](#-1-conversión-de-decimal-a-binario-10-bits)
   - [🔢 1.2 Conversión de Decimal a Octal](#-12-conversión-de-decimal-a-octal)
 
@@ -19,6 +20,36 @@
   - ✔️ Conversión rápida entre bases numéricas  
   - ✔️ Ejemplos claros de uso  
   - ✔️ Código modular y bien documentado  
+
+<br>
+
+## 🔢 Números Representados en los ``4`` Sistemas
+
+| **🟦 Decimal** | **🟧 Octal** | **🟥 Hexadecimal** | **🟩 Binario**|
+|------------|----------|----------------|---------------|
+| 124        | 174      | 7C             | 1111100       |
+| 500        | 764      | 1F4            | 111110100     |
+| 256        | 400      | 100            | 100000000     |
+| 400        | 620      | 190            | 110010000     |
+| 158        | 236      | 9E             | 10011110      |
+| 179        | 263      | B3             | 10110011      |
+| 450        | 702      | 1C2            | 111000010     |
+| 479        | 737      | 1DF            | 111011111     |
+| 79         | 117      | 4F             | 1001111       |
+| 91         | 133      | 5B             | 1011011       |
+| 762        | 1362     | 2FA            | 1011111010    |
+| 90         | 132      | 5A             | 1011010       |
+| 398        | 616      | 18E            | 110001110     |
+| 432        | 660      | 1B0            | 110110000     |
+| 420        | 644      | 1A4            | 110100100     |
+
+
+- **🔍 Explicación de los colores:**
+  - 🟦 Decimal → nuestro sistema habitual (base 10).
+  - 🟧 Octal → base 8.
+  - 🟥 Hexadecimal → base 16 (usando letras A–F).
+  - 🟩 Binario → base 2 (solo ceros y unos).
+
 
 <br>
 
