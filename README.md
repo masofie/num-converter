@@ -16,10 +16,10 @@
 
 - **🔍 Explicación de los colores:**
   
-  - 🟦 Decimal → nuestro sistema habitual (base 10).
+  - 🟦 Decimal → nuestro sistema habitual ``base 10``.
   - 🟧 Octal → base 8.
-  - 🟥 Hexadecimal → base 16 (usando letras A–F).
-  - 🟩 Binario → base 2 (solo ceros y unos).
+  - 🟥 Hexadecimal → base 16 ``usando letras A–F``.
+  - 🟩 Binario → base 2 ``solo ceros y unos``.
 
 <br>
 
