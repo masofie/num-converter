@@ -5,7 +5,8 @@
   - [🔢 Números Representados en los ``4`` Sistemas](#-números-representados-en-los-4-sistemas)
   - [🔢 1. Conversión de Decimal a Binario (10 bits)](#-1-conversión-de-decimal-a-binario-10-bits)
   - [🔢 1.2 Conversión de Decimal a Octal](#-12-conversión-de-decimal-a-octal)
-- [🔢 1.3 Conversión de Octal a Decimal](#-13-conversión-de-octal-a-decimal)
+  - [🔢 1.3 Conversión de Octal a Decimal](#-13-conversión-de-octal-a-decimal)
+  - [🔢 1.4 Conversión de Octal a Hexadecimal](#-14-conversión-de-octal-a-hexadecimal)
 
 > Un repositorio para convertir números entre distintos sistemas numéricos
 
@@ -90,7 +91,7 @@ La fila superior muestra los **pesos** (potencias de 2). El bit ``1`` indica que
 
 <br>
 
-# 🔢 1.3 Conversión de Octal a Decimal
+## 🔢 1.3 Conversión de Octal a Decimal
 <br>
 
 **🔹 Explicación simple**
@@ -114,3 +115,39 @@ La fila superior muestra los **pesos** (potencias de 2). El bit ``1`` indica que
 | 31          | 25             | (3×8¹) + (1×8⁰) = 24+1             |
 | 52          | 42             | (5×8¹) + (2×8⁰) = 40+2             |
 | 144         | 100            | (1×8²) + (4×8¹) + (4×8⁰) = 64+32+4 |
+
+<br>
+
+## 🔢 1.4 Conversión de Octal a Hexadecimal
+<br>
+
+La conversión de ``Octal`` ↔ ``Hexadecimal`` se hace siempre pasando primero por Binario, porque:
+
+- Cada dígito ``octal (0–7)`` se representa con ``3 bits`` en binario.
+- Cada dígito ``hexadecimal (0–F)`` se representa con ``4 bits`` en binario.
+
+Así, puedes convertir ``Octal → Binario → Hexadecimal`` (y viceversa).
+
+<br>
+
+**🔹 Explicación**
+
+👉 Ejemplo con Octal 236₈ → Hexadecimal
+
+1. Escribir cada dígito octal en 3 bits binarios:
+
+   - 2 = 010
+   - 3 = 011
+   - 6 = 110
+   - → 236₈ = 010 011 110 (binario)
+
+2. Agrupar en bloques de 4 bits (para pasar a hexadecimal):
+
+  - 0100 1110
+  
+3. Pasar cada bloque a Hex:
+
+   - 0100 = 4
+   - 1110 = E
+
+✅ Resultado: 236₈ = 4E₁₆
