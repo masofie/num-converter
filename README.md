@@ -13,18 +13,6 @@
 ## 🔢 Números Representados en los ``4`` Sistemas
 <br>
 
-- **Bases:**
-  - Binario
-  - Decimal
-  - Octal
-  - Hexadecimal
-
-- **🚀 Características:**
-  - ✔️ Conversión rápida entre bases numéricas  
-  - ✔️ Ejemplos claros de uso  
-  - ✔️ Código modular y bien documentado  
-
-
 - **🔍 Explicación de los colores:**
   - 🟦 Decimal → nuestro sistema habitual (base 10).
   - 🟧 Octal → base 8.
