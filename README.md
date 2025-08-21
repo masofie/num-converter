@@ -121,7 +121,7 @@ La fila superior muestra los **pesos** (potencias de 2). El bit ``1`` indica que
 ## 🔢 1.4 Conversión de Octal a Hexadecimal
 <br>
 
-La conversión de ``Octal`` ↔ ``Hexadecimal`` se hace siempre pasando primero por Binario, porque:
+La conversión de ``Octal`` ↔ ``Hexadecimal`` se hace siempre pasando primero por binario, porque:
 
 - Cada dígito ``octal (0–7)`` se representa con ``3 bits`` en binario.
 - Cada dígito ``hexadecimal (0–F)`` se representa con ``4 bits`` en binario.
