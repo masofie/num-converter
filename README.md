@@ -1,14 +1,14 @@
-# 🔢 Convertidor Numérico
+# 🔢 Conversor de Sistemas Numéricos
 <br>
 
-- [🔢 Convertidor Numérico](#-convertidor-numérico)
+- [🔢 Conversor de Sistemas Numéricos](#-conversor-de-sistemas-numéricos)
   - [🔢 Números Representados en los ``4`` Sistemas](#-números-representados-en-los-4-sistemas)
   - [🔢 1. Conversión de Decimal a Binario (10 bits)](#-1-conversión-de-decimal-a-binario-10-bits)
   - [🔢 1.2 Conversión de Decimal a Octal](#-12-conversión-de-decimal-a-octal)
   - [🔢 1.3 Conversión de Octal a Decimal](#-13-conversión-de-octal-a-decimal)
   - [🔢 1.4 Conversión de Octal a Hexadecimal](#-14-conversión-de-octal-a-hexadecimal)
 
-> Un repositorio para convertir números entre distintos sistemas numéricos
+> Repositorio dedicado a la conversión de números entre distintos sistemas numéricos.
 
 <br>
 
@@ -16,9 +16,9 @@
 <br>
 
 
-- **🔍 Explicación de los colores:**
+- **🔍 Interpretación de los colores:**
   
-  - 🟦 Decimal → nuestro sistema habitual ``base 10``.
+  - 🟦 Decimal → sistema de numeración habitual ``base 10``.
   - 🟧 Octal → se usa ``base 8``.
   - 🟥 Hexadecimal → base 16 ``usando letras A–F``.
   - 🟩 Binario → base 2 ``solo ceros y unos``.
@@ -48,7 +48,7 @@
 ## 🔢 1. Conversión de Decimal a Binario (10 bits)
 <br>
 
-La fila superior muestra los **pesos** (potencias de 2). El bit ``1`` indica que el número contiene ese valor, y ``0`` que no lo contiene.
+La fila superior muestra los **pesos** (potencias de 2). El bit `1` indica que se utiliza ese valor en la representación del número, mientras que `0` indica que no se utiliza.
 
 | Decimal | 512 | 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 | Binario     |
 |---------|-----|-----|-----|----|----|----|---|---|---|---|-------------|
@@ -67,13 +67,13 @@ La fila superior muestra los **pesos** (potencias de 2). El bit ``1`` indica que
 ## 🔢 1.2 Conversión de Decimal a Octal
 <br>
 
-👉 El decimal es ``base 10`` porque usamos ``10 dígitos``. Cuando llegamos al 9, ya no tenemos más dígitos…
+👉 El decimal es ``base 10`` porque usamos ``10 dígitos``. Después del 9 se produce un acarreo a la siguiente posición.
 
 ~~~~
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 ~~~~
 
-👉 El octal es ``base 8`` porque solo tiene ``8 dígitos``. Cuando llegamos al 7, ya no hay más dígitos… 
+👉 El octal es ``base 8`` porque solo tiene ``8 dígitos``. Después del 7 se produce un acarreo a la siguiente posición.
 
 ~~~~
 0, 1, 2, 3, 4, 5, 6, 7
@@ -121,7 +121,7 @@ La fila superior muestra los **pesos** (potencias de 2). El bit ``1`` indica que
 ## 🔢 1.4 Conversión de Octal a Hexadecimal
 <br>
 
-La conversión de ``Octal`` ↔ ``Hexadecimal`` se hace siempre pasando primero por binario, porque:
+La conversión de `octal` ↔ `hexadecimal` se hace siempre pasando primero por binario, porque:
 
 - Cada dígito ``octal (0–7)`` se representa con ``3 bits`` en binario.
 - Cada dígito ``hexadecimal (0–F)`` se representa con ``4 bits`` en binario.
@@ -132,7 +132,7 @@ Así, puedes convertir ``Octal → Binario → Hexadecimal`` (y viceversa).
 
 **🔹 Explicación**
 
-👉 Ejemplo con Octal ``236₈`` → Hexadecimal
+👉 Ejemplo con octal ``236₈`` → hexadecimal
 
 1. Escribir cada dígito octal en 3 bits binarios:
 
