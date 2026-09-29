@@ -3,7 +3,7 @@
 
 - [🔢 Conversor de Sistemas Numéricos](#-conversor-de-sistemas-numéricos)
   - [🔢 Números Representados en los ``4`` Sistemas](#-números-representados-en-los-4-sistemas)
-  - [🔢 1. Conversión de Decimal a Binario (10 bits)](#-1-conversión-de-decimal-a-binario-10-bits)
+  - [🔢 1. Conversión de Decimal a Binario](#-1-conversión-de-decimal-a-binario)
   - [🔢 1.2 Conversión de Decimal a Octal](#-12-conversión-de-decimal-a-octal)
   - [🔢 1.3 Conversión de Octal a Decimal](#-13-conversión-de-octal-a-decimal)
   - [🔢 1.4 Conversión de Octal a Hexadecimal](#-14-conversión-de-octal-a-hexadecimal)
@@ -45,7 +45,7 @@
 
 <br>
 
-## 🔢 1. Conversión de Decimal a Binario (10 bits)
+## 🔢 1. Conversión de Decimal a Binario
 <br>
 
 La fila superior muestra los **pesos** (potencias de 2). El bit `1` indica que se utiliza ese valor en la representación del número, mientras que `0` indica que no se utiliza.
